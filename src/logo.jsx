@@ -37,7 +37,7 @@ function Logo({ theme = "dark", className = "" }) {
   const first = isDark ? "text-white" : "text-zinc-900";
   const second = isDark ? "text-immune-green" : "text-immune-green";
   return (
-    <a href="#" className={`flex items-center gap-2.5 group ${className}`} aria-label="ImmuneBytes — home">
+    <a href="/" className={`flex items-center gap-2.5 group ${className}`} aria-label="ImmuneBytes — home">
       <LogoMark theme={theme} size={28} />
       <span className="font-display font-semibold text-[19px] tracking-tight leading-none">
         <span className={first}>Immune</span><span className={second}>Bytes</span>
