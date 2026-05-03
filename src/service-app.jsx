@@ -54,7 +54,6 @@ function ServiceApp() {
       <Header activePath={`/${pageId}`} />
       {body}
       <Footer />
-      <PageSwitcher pageId={pageId} setPageId={setPageId} isOpen={switcherOpen} setIsOpen={setSwitcherOpen} />
     </div>
   );
 }

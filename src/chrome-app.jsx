@@ -94,7 +94,6 @@ function ChromeApp() {
       <Header activePath={`/${pageId}`} />
       {Body ? <Body /> : <main className="bg-white py-32 text-center text-zinc-500"><p className="font-mono">Page not found.</p></main>}
       <Footer />
-      <ChromePageSwitcher pageId={pageId} setPageId={setPageId} />
     </div>
   );
 }
